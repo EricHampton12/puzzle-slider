@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(153, 189, 187)
+}
+
+.btn-md{
+    height: 60px;
+    width: 60px;
+}
+
+.btn: :hover {
+    cursor: pointer;
+
+    
+}
