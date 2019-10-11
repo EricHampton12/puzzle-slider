@@ -19,7 +19,27 @@ class Tile {
                     k = i;
                 }
             }
-          var devito = document.createElement('img');
+//you need to set a for loop, and inside that a if and else statement
+//for (let i = 0; i < 16; i++) {
+//this is mine. this goes through each image and tells it what to do according to it's location. 
+// The formula sets the margins needed for each picture.
+            
+            
+//         let image = document.getElementById(`image${tileObjectArray[i].location}`);
+
+//         // .style = i;
+//         if (i == 0) {
+
+//             image.setAttribute('style', 'opacity: 0');
+//         }
+
+//         else {
+//             image.setAttribute('style', `margin-left:${i % 4 * -150}px; margin-top:${parseInt(i / 4) * -150}px`);
+//         }
+
+//     }
+            
+            var devito = document.createElement('img');
           devito.setAttribute("style", "margin-left:-100px; margin-top:0px; max-width:100%;");
           devito.src=imgSrc;
           document.getElementById(k).appendChild(devito);
